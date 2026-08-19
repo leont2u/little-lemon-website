@@ -9,7 +9,7 @@ const initialFormState = {
   email: "",
 };
 
-function Reservations() {
+function BookingPage() {
   const [form, setForm] = useState(initialFormState);
   const [submitted, setSubmitted] = useState(false);
 
@@ -131,4 +131,4 @@ function Reservations() {
   );
 }
 
-export default Reservations;
+export default BookingPage;

@@ -1,7 +1,7 @@
 import marioAndAdrianA from "../assets/mario-and-adrian-a.jpg";
 import marioAndAdrianB from "../assets/mario-and-adrian-b.jpg";
 
-function About() {
+function Chicago() {
   return (
     <section className="about" id="about">
       <div className="about-text">
@@ -21,4 +21,4 @@ function About() {
   );
 }
 
-export default About;
+export default Chicago;

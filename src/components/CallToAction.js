@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import restaurantFood from "../assets/restauranfood.jpg";
 
-function Hero() {
+function CallToAction() {
   return (
     <section className="hero" id="home">
       <div className="hero-text">
@@ -10,9 +11,9 @@ function Hero() {
           We are a family owned Mediterranean restaurant, focused on
           traditional recipes served with a modern twist.
         </p>
-        <a href="#reservations" className="button-link">
+        <Link to="/booking" className="button-link">
           Reserve a Table
-        </a>
+        </Link>
       </div>
       <div className="hero-image">
         <img src={restaurantFood} alt="A dish served at Little Lemon" />
@@ -21,4 +22,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default CallToAction;
