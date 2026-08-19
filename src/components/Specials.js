@@ -28,10 +28,12 @@ const dishes = [
 
 function Specials() {
   return (
-    <section className="specials" id="menu">
+    <section className="specials" id="menu" aria-labelledby="specials-heading">
       <div className="specials-header">
-        <h2>This week's specials!</h2>
-        <button type="button">Online Menu</button>
+        <h2 id="specials-heading">This week's specials!</h2>
+        <button type="button" aria-label="On Click">
+          Online Menu
+        </button>
       </div>
       <div className="specials-cards">
         {dishes.map((dish) => (

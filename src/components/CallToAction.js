@@ -3,9 +3,9 @@ import restaurantFood from "../assets/restauranfood.jpg";
 
 function CallToAction() {
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="home" aria-labelledby="hero-heading">
       <div className="hero-text">
-        <h1>Little Lemon</h1>
+        <h1 id="hero-heading">Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
           We are a family owned Mediterranean restaurant, focused on

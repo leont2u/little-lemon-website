@@ -97,6 +97,17 @@ button:hover {
   background-color: var(--color-highlight-1);
 }
 
+button:disabled {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+}
+
 .button-link {
   display: inline-block;
   font-family: var(--font-body);
@@ -271,6 +282,7 @@ nav a:hover {
   background-color: var(--color-light);
 }
 
+.reservations h1,
 .reservations h2 {
   color: var(--color-primary);
 }
@@ -426,6 +438,10 @@ footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+footer address {
+  font-style: normal;
 }
 
 footer h3 {

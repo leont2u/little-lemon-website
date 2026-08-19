@@ -3,10 +3,10 @@ import marioAndAdrianB from "../assets/mario-and-adrian-b.jpg";
 
 function Chicago() {
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" aria-labelledby="about-heading">
       <div className="about-text">
-        <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
+        <h2 id="about-heading">Little Lemon</h2>
+        <h3>Chicago</h3>
         <p>
           Little Lemon opened its doors in 1995, bringing the taste of the
           Mediterranean coast to the heart of Chicago. We are still owned and
