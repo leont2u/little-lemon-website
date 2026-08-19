@@ -2,4 +2,8 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
-import '@testing-library/jest-dom';
+import "@testing-library/jest-dom";
+
+global.fetchAPI =
+  global.fetchAPI || (() => ["17:00", "18:00", "19:00", "20:00", "21:00"]);
+global.submitAPI = global.submitAPI || (() => true);
