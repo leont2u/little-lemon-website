@@ -1,7 +1,17 @@
+import Hero from "./Hero";
+import Specials from "./Specials";
+import Reservations from "./Reservations";
+import Testimonials from "./Testimonials";
+import About from "./About";
+
 function Main() {
   return (
     <main>
-      <h1>Home page</h1>
+      <Hero />
+      <Specials />
+      <Reservations />
+      <Testimonials />
+      <About />
     </main>
   );
 }
